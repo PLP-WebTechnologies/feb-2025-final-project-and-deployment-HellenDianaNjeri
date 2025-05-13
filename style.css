@@ -1,0 +1,161 @@
+/* style for index.html */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #007b5e;
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+.hero {
+  background: #d9f2ec;
+  text-align: center;
+  padding: 4em 1em;
+}
+
+.hero .btn {
+  background: #007b5e;
+  color: white;
+  padding: 0.8em 1.5em;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+.featured {
+  padding: 2em;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+.product-card {
+  background: white;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 1em;
+}
+
+.shop {
+  padding: 2em;
+}
+
+.shop h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.cart {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.cart-item {
+  background: #f1f1f1;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+.cart-item button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart button {
+  margin-top: 1em;
+  background: #007b5e;
+  color: white;
+  padding: 0.8em 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.contact-section {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 2em;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section label {
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+.contact-section input,
+.contact-section textarea {
+  padding: 0.8em;
+  margin-top: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.contact-section button {
+  margin-top: 1.5em;
+  background: #007b5e;
+  color: white;
+  padding: 0.8em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback {
+  margin-top: 1em;
+  font-weight: bold;
+}
